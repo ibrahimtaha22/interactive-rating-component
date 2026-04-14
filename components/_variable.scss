@@ -1,0 +1,19 @@
+/* Css variable */
+:root {
+  --container-width: 119rem;
+  --mobile-width: 37.5rem;
+
+  --gutter: 2em;
+
+  --color-orange: hsl(25, 97%, 53%);
+  --color-white: hsl(0, 100%, 100%);
+  --color-grey-500: hsl(217, 12%, 63%);
+  --color-grey-900: hsl(213, 19%, 18%);
+  --color-grey-950: hsl(216, 12%, 8%);
+
+  --font-family-Overpass: "Overpass", san-serif;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-size-15: 1.5rem;
+  --transition-timing: 0.3s;
+}
