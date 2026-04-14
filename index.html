@@ -22,71 +22,73 @@
     <title>Frontend Mentor | Interactive rating component</title>
   </head>
   <body>
-    <div class="container">
-      <div class="rating-state">
-        <div class="icon-star-box">
-          <img
-            class="icon-star icon-star-state1 index0"
-            src="./images/icon-star.svg"
-            alt="icon-star"
-          />
-          <img
-            class="icon-star icon-star-state1 index1"
-            src="./images/icon-star.svg"
-            alt="icon-star"
-          />
-          <img
-            class="icon-star icon-star-state1 index2"
-            src="./images/icon-star.svg"
-            alt="icon-star"
-          />
-          <img
-            class="icon-star icon-star-state1 index3"
-            src="./images/icon-star.svg"
-            alt="icon-star"
-          />
-          <img
-            class="icon-star icon-star-state1 index4"
-            src="./images/icon-star.svg"
-            alt="icon-star"
-          />
+    <main>
+      <div class="container">
+        <div class="rating-state">
+          <div class="icon-star-box">
+            <img
+              class="icon-star icon-star-state1 index0"
+              src="./images/icon-star.svg"
+              alt="icon-star"
+            />
+            <img
+              class="icon-star icon-star-state1 index1"
+              src="./images/icon-star.svg"
+              alt="icon-star"
+            />
+            <img
+              class="icon-star icon-star-state1 index2"
+              src="./images/icon-star.svg"
+              alt="icon-star"
+            />
+            <img
+              class="icon-star icon-star-state1 index3"
+              src="./images/icon-star.svg"
+              alt="icon-star"
+            />
+            <img
+              class="icon-star icon-star-state1 index4"
+              src="./images/icon-star.svg"
+              alt="icon-star"
+            />
+          </div>
+          <h1 class="heading">How did we do?</h1>
+
+          <p class="text">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+
+          <div class="rating_boxes">
+            <div class="rating_box">1</div>
+            <div class="rating_box">2</div>
+            <div class="rating_box">3</div>
+            <div class="rating_box">4</div>
+            <div class="rating_box">5</div>
+          </div>
+
+          <input id="input-button" type="button" class="input-button" />
+          <label for="input-button" class="submit-button">SUBMIT</label>
         </div>
-        <h1 class="heading">How did we do?</h1>
 
-        <p class="text">
-          Please let us know how we did with your support request. All feedback
-          is appreciated to help us improve our offering!
-        </p>
-
-        <div class="rating_boxes">
-          <div class="rating_box">1</div>
-          <div class="rating_box">2</div>
-          <div class="rating_box">3</div>
-          <div class="rating_box">4</div>
-          <div class="rating_box">5</div>
+        <div class="thank-you-state">
+          <img
+            class="thank-you-pic"
+            src="./images/illustration-thank-you.svg"
+            alt="illustration-thank-you"
+          />
+          <h2 class="thank-you-rating-box">
+            You selected <span class="rating-score">x</span> out of 5
+          </h2>
+          <p class="thank-you-text">Thank you!</p>
+          <p class="thank-you-paragraph">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+          <!-- Thank you state end -->
         </div>
-
-        <input id="input-button" type="button" class="input-button" />
-        <label for="input-button" class="submit-button">SUBMIT</label>
       </div>
-
-      <div class="thank-you-state">
-        <img
-          class="thank-you-pic"
-          src="./images/illustration-thank-you.svg"
-          alt="illustration-thank-you"
-        />
-        <h2 class="thank-you-rating-box">
-          You selected <span class="rating-score">x</span> out of 5
-        </h2>
-        <p class="thank-you-text">Thank you!</p>
-        <p class="thank-you-paragraph">
-          We appreciate you taking the time to give a rating. If you ever need
-          more support, don’t hesitate to get in touch!
-        </p>
-        <!-- Thank you state end -->
-      </div>
-    </div>
+    </main>
     <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>
